@@ -1,15 +1,15 @@
-# Full Stack Landing Page & Admin Panel Project
+# Full Stack Landing Page & Admin Panel
 
 ## Introduction
-Hi, I'm Harry, an engineering student and a full-stack developer. This project is a part of my campus placement task, where I built a dynamic web application using React, Tailwind CSS, Node.js, and MySQL. It demonstrates the creation of a landing page, a functional admin panel, and dynamic data handling using REST APIs.
+Hi, I'm Upkar Sisodiya, an engineering student and a full-stack developer. This project is a full-stack web application built using React, Tailwind CSS, Node.js, and MySQL. It demonstrates dynamic data handling, a responsive landing page, and an admin panel for managing content.
 
 ## Project Overview
-This project consists of two main sections:
+The application consists of two main sections:
 
 1. **Landing Page**  
    - Displays projects and clients dynamically.
-   - Contact form for user inquiries.
-   - Newsletter subscription.
+   - Contact form to collect user inquiries.
+   - Newsletter subscription form.
 
 2. **Admin Panel**  
    - Add, view, and manage projects and clients.
@@ -24,11 +24,11 @@ This project consists of two main sections:
 - **Version Control:** Git/GitHub  
 
 ## Features
-- Fully dynamic projects and clients section.
+- Dynamic rendering of projects and clients.
 - Contact form submissions stored in MySQL.
-- Newsletter subscription with email validation.
+- Newsletter subscription stored in MySQL.
 - Admin panel to manage all data.
-- Responsive and modern design using Tailwind CSS.
+- Responsive UI using Tailwind CSS.
 
 ## Database Tables
 1. **projects** – id, name, description, image  
@@ -39,6 +39,6 @@ This project consists of two main sections:
 ## How to Run
 1. **Backend**  
    ```bash
-   cd flipr-backend
+  
    npm install
    node server.js
